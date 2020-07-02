@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;   
+}
+
+.fixarRodape{
+bottom: 0;
+position: fixed;
+width: 90%;
+text-align: center;
+font-size: large;
+}
+
+body{
+    margin: 0;
+    font-family: 'Oswald';
+    background-color: rgb(151, 151, 149);
+}
+
+.cabecalho{
+    background-color: rgb(37, 37, 36);                     
+    border-bottom: solid 5px rgb(163, 163, 22);
+    height: 80px;
+    box-sizing: content-box;
+}
+
+.logo{
+   /* background-image: url(home.png);*/
+    display: inline-block;
+    height: 80px;
+    padding: 15px;
+}
+
+.logo img{   
+    height: 60px;
+}
+
+.menu-toggle{
+    float: right;
+    color: lightgray;
+    background-color: rgb(247, 241, 242);
+    border: solid 1px #777;
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px 20px;
+    margin: 20px 15px;
+}
+
+.menu {
+    display: inline-block;
+    vertical-align: top;
+    height: 80px;
+    padding: 25px;
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+.menu li{
+    display: inline-block;
+    color: rgb(64, 137, 201);   
+}
+
+.menu a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.3em;
+    padding: 15px;
+}
+
+
+.autenticacao{
+    float: right;
+    color: aliceblue;
+    font-size: 1.3em;
+    padding: 15px;          
+}
+
