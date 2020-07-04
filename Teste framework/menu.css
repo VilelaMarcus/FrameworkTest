@@ -24,25 +24,14 @@ body{
 }
 
 .logo{
-   /* background-image: url(home.png);*/
     display: inline-block;
     height: 80px;
-    padding: 15px;
+    padding: 15px;    
 }
 
 .logo img{   
+    text-decoration: none;
     height: 60px;
-}
-
-.menu-toggle{
-    float: right;
-    color: lightgray;
-    background-color: rgb(247, 241, 242);
-    border: solid 1px #777;
-    border-radius: 5px;
-    height: 40px;
-    padding: 10px 20px;
-    margin: 20px 15px;
 }
 
 .menu {
@@ -70,6 +59,11 @@ body{
     padding: 15px;
 }
 
+.menu a:hover,
+.menu a.selected{
+    background-color: #4fabdb;
+    color: black;
+}
 
 .autenticacao{
     float: right;

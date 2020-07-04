@@ -55,7 +55,7 @@ async function loadTodos() {
                 if(n.indexOf(busca) != -1){
                     let conteudo = document.getElementById('conteudo')                    
                     tb.style.display = "none"                    
-                    conteudo.innerHTML = tr
+                    conteudo.innerHTML = tr                    
                 }
                 if(busca == ''){                                       
                     tb.style.display = "table-row-group"  
@@ -71,5 +71,7 @@ async function loadTodos() {
         ...arrays]))
 
 }
+
+
   
 loadTodos();     
